@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [['link', { rel: 'icon', href: '/muso.png' }]],
   locales: {
     root: {
       label: '简体中文',
@@ -70,7 +71,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '什么是 Muso？', link: '/intro/what-is-muso' },
-          { text: '支持我们', link: '/intro/support-us' },
+          { text: '支持 Muso', link: '/intro/support-us' },
           { text: '协助翻译', link: '/intro/i18n' },
         ]
       }
@@ -78,6 +79,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alwayskeepmoving/muso' },
+      { icon: 'discord', link: 'https://discord.com/invite/CW2Dqbgr3s' },
       { icon: 'x', link: 'https://x.com/ayskeepmoving' }
     ],
 
