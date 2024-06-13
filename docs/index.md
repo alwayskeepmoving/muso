@@ -8,11 +8,11 @@ hero:
   tagline: TODO
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始浏览
+      link: /intro/what-is-muso
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 支持我们
+      link: /intro/support-us
 
 features:
   - title: Feature A

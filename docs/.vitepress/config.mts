@@ -8,8 +8,8 @@ export default defineConfig({
       lang: 'zh-CN',
     },
     todo: {
-      label: '协助翻译？',
-      link: '/i18n'
+      label: '协助翻译',
+      link: '/intro/i18n'
     },
     // en: {
     //   label: 'English',
@@ -63,17 +63,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '简介',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/docs/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/docs/api-examples' }
+          { text: '什么是 Muso？', link: '/intro/what-is-muso' },
+          { text: '支持我们', link: '/intro/support-us' },
+          { text: '协助翻译', link: '/intro/i18n' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'twitter', link: 'https://twitter.com/vuejs' }
+      { icon: 'github', link: 'https://github.com/alwayskeepmoving/muso' },
+      { icon: 'x', link: 'https://x.com/ayskeepmoving' }
     ],
 
     search: {
