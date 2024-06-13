@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_25);
+      }
+
+      .cls-1,
+      .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_25" data-name="未命名的渐变 25" x1="31.81" y1="158.25" x2="150.44" y2="56.67"
+      gradientUnits="userSpaceOnUse">
+      <stop offset=".16" stop-color="#2300bf" />
+      <stop offset=".25" stop-color="#2000c4" />
+      <stop offset=".36" stop-color="#1800d2" />
+      <stop offset=".48" stop-color="#0b00ea" />
+      <stop offset=".56" stop-color="blue" />
+      <stop offset=".57" stop-color="#0000e1" />
+      <stop offset=".6" stop-color="#0000b2" />
+      <stop offset=".63" stop-color="#000087" />
+      <stop offset=".66" stop-color="#000063" />
+      <stop offset=".69" stop-color="#004" />
+      <stop offset=".72" stop-color="#00002b" />
+      <stop offset=".76" stop-color="#000017" />
+      <stop offset=".81" stop-color="#00000a" />
+      <stop offset=".86" stop-color="#000002" />
+      <stop offset=".97" stop-color="#000" />
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" x=".25" y="-.35" width="200" height="200" rx="75.36" ry="75.36" />
+  <path class="cls-2"
+    d="M98.07,67.19h22.08l-52.45,65.1h-22.08l52.45-65.1ZM59.98,76.29c2.39,0,4.46.87,6.21,2.62,1.75,1.75,2.62,3.82,2.62,6.21s-.88,4.44-2.62,6.14c-1.75,1.7-3.82,2.55-6.21,2.55s-4.44-.85-6.14-2.55c-1.7-1.7-2.55-3.75-2.55-6.14s.85-4.46,2.55-6.21c1.7-1.75,3.75-2.62,6.14-2.62ZM132.58,67.19h22.08l-52.45,65.1h-22.08l52.45-65.1ZM140.31,105.67c2.39,0,4.46.87,6.21,2.62,1.75,1.75,2.62,3.82,2.62,6.21s-.88,4.44-2.62,6.14c-1.75,1.7-3.82,2.55-6.21,2.55s-4.44-.85-6.14-2.55c-1.7-1.7-2.55-3.75-2.55-6.14s.85-4.46,2.55-6.21c1.7-1.75,3.75-2.62,6.14-2.62Z" />
+</svg>

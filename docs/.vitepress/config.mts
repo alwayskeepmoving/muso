@@ -60,7 +60,7 @@ export default defineConfig({
         ]
       },
     ],
-
+    logo: '/logo.svg',
     sidebar: [
       {
         text: '简介',
