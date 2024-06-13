@@ -6,6 +6,9 @@ hero:
   name: "Muso"
   text: "TODO"
   tagline: TODO
+  image:
+    src: /muso.svg
+    alt: Muso Logo
   actions:
     - theme: brand
       text: 开始浏览
