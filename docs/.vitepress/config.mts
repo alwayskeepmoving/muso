@@ -8,7 +8,7 @@ export default defineConfig({
       lang: 'zh-CN',
     },
     todo: {
-      label: '协助翻译',
+      label: '协助翻译？',
       link: '/intro/i18n'
     },
     // en: {
@@ -40,7 +40,10 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
-
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
+    },
     langMenuLabel: '多语言',
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
@@ -49,14 +52,14 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: '首页', link: '/' },
+      { text: '开始浏览', link: '/markdown-examples' },
       {
-        text: 'Enterance',
+        text: '取得联系',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '加入我们的 QQ 群', link: '/markdown-examples' },
+          { text: '给我们发 Email', link: '/markdown-examples' },
+          { text: '在 X 上联系我们', link: '/markdown-examples' },
         ]
       },
     ],
