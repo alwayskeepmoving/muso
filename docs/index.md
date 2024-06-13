@@ -7,7 +7,7 @@ hero:
   text: "TODO"
   tagline: TODO
   image:
-    src: /muso.svg
+    src: /muso.png
     alt: Muso Logo
   actions:
     - theme: brand
