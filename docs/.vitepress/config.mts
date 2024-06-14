@@ -8,9 +8,9 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh-CN',
     },
-    todo: {
+    i18n: {
       label: '协助翻译？',
-      link: '/intro/i18n'
+      link: 'https://muso.alwayskeepmoving.net/intro/i18n/'
     },
     // en: {
     //   label: 'English',
@@ -72,7 +72,7 @@ export default defineConfig({
         items: [
           { text: '什么是 Muso？', link: '/intro/what-is-muso' },
           { text: '支持 Muso', link: '/intro/support-us' },
-          { text: '协助翻译', link: '/intro/i18n' },
+          { text: '协助翻译', link: '/i18n/' },
         ]
       }
     ],

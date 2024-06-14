@@ -43,6 +43,12 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+@import url(./misans.css);
+
+* {
+  font-family: inter, MiSans;
+}
+
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -140,9 +146,13 @@
 .VPNavBar:not(.home.top) .content-body {
   background-color: transparent !important;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  -moz-backdrop-filter: blur(30px);
 }
 
 .VPLocalNav {
   background-color: transparent !important;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  -moz-backdrop-filter: blur(20px);
 }

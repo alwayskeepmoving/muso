@@ -23,7 +23,7 @@ hero:
 features:
   - icon: 🎺
     title: 只有音乐
-    details: Muso 专注于曲目发行，提供准确、全面的信息。免受广告打扰。
+    details: Muso 专注于曲目发行，提供准确、全面的信息，且免受广告打扰。
   - icon: 🎹
     title: 完全自由、开源
     details: Muso 是完全自由、开源的。这意味着任何人都可以自由地使用、编辑和分发。
