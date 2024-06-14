@@ -26,7 +26,7 @@ export default defineConfig({
   title: "Muso",
   description: "",
   themeConfig: {
-    i18nRouting: false,
+    // i18nRouting: true,
     docFooter: {
       prev: '上一页',
       next: '下一页'
@@ -42,7 +42,7 @@ export default defineConfig({
       }
     },
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/alwayskeepmoving/muso/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     langMenuLabel: '多语言',
